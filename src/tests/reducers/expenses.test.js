@@ -44,7 +44,7 @@ test('should edit expense by id', () => {
   const updates = { amount: 4700 }
   const action = {
     type: "EDIT_EXPENSE",
-    id: 3,
+    id: '3',
     updates
   }
   const state = expensesReducer(expenses, action);
